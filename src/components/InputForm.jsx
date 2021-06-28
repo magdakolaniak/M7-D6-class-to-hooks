@@ -4,10 +4,6 @@ import uniqid from 'uniqid';
 import { useDispatch } from 'react-redux';
 import { addTodo } from '../store/actions';
 
-// const mapDispatchToProps = (dispatch) => ({
-//   addTodo: (todo) => dispatch(addTodo(todo)),
-// });
-
 function InputForm() {
   const [description, setDescription] = useState('');
 
